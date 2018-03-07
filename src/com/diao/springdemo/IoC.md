@@ -1,6 +1,6 @@
-# Inversion of Control
+# Inversion of Control: Outsourcing
 
-## Spring container
+## Spring container: ApplicationContext
 
 - create manage objects (IoC)
     
