@@ -8,4 +8,7 @@
     2. Java Annotation
     3. Java Source Code
     
-- inject object's dependencies (Dependency Injection)
+- inject object's dependencies (Helper Injection)
+
+    1. Conctructor Injection
+    2. Setter Injection
