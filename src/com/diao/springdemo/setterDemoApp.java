@@ -6,7 +6,7 @@ public class setterDemoApp {
 
     public static void main(String[] args) {
         // load the spring config
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("com/diao/springdemo/applicationContext.xml");
 
         // retrieve bean from spring container
         CricketCoach cc = context.getBean("myCricketCoach", CricketCoach.class);
