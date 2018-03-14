@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
+@RequestMapping("/hello")
 public class HelloWorldController {
 	
 	// a controller method to show the initial form
@@ -17,7 +18,7 @@ public class HelloWorldController {
 	}
 	
 	// to process the HTML form
-	@RequestMapping("processForm")
+	@RequestMapping("/processForm")
 	public String processform() {
 		return "helloworld";
 	}
