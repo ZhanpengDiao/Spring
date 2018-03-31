@@ -2,6 +2,8 @@ package com.diao.springmvc;
 
 import javax.validation.constraints.*;
 
+import com.diao.springmvc.mvc.vaildation.CourseCode;
+
 public class Customer {
 	private String firstName;
 	
@@ -18,6 +20,15 @@ public class Customer {
 	@Pattern(regexp="^\\w{5}", message=" only 5 chars/digits")
 	private String postalCode;
 	
+	@CourseCode
+	private String courseCode;
+	
+	public String getCourseCode() {
+		return courseCode;
+	}
+	public void setCourseCode(String courseCode) {
+		this.courseCode = courseCode;
+	}
 	public String getFirstName() {
 		return firstName;
 	}
